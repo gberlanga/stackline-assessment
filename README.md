@@ -1,3 +1,17 @@
+# Assumtions
+- Assumed that retailSales/wholesaleSales/retailMargin was on cents, therefore I used a helper function to transform the data to USD by diving by 100
+- Assumed that a tooltip was not needed for the graph; The reason for this assumtion is that the mockup was only an image. However adding tooltip and modifying the graph is a matter of adding the `<Tooltip />` component to the graph.
+- Assumed that there was no need to do money formatting for the graph.
+- Assumed that the graph's xAxis required the monthly sales. For this I created a helper function to add all the sales for every month and graph the monthly sales.
+
+# npm Packages used
+- [Material UI](https://mui.com/material-ui/) for table
+  - Used the integretaed functionality of Material UI's table for pagination and sorting. 
+- [Recharts](https://recharts.org/en-US/) for graph
+  - selected the basis graph to approach as close as possible to the mockup
+
+---
+_Boilerplate read.Me from building the project with vite_
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
