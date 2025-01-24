@@ -9,6 +9,7 @@
   - Used the integretaed functionality of Material UI's table for pagination and sorting. 
 - [Recharts](https://recharts.org/en-US/) for graph
   - selected the basis graph to approach as close as possible to the mockup
+- Redux-Toolkit to use `createAsyncThunk` and have the `pending`, `fulfilled`, and `rejected` status
 
 ---
 _Boilerplate read.Me from building the project with vite_
