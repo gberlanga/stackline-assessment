@@ -1,0 +1,36 @@
+.sidePanel img {
+    max-width: 150px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.sidePanel .tags > * {
+    margin: 0.5rem;
+}
+.tags {
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #f4f6f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-weight: lighter;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title {
+    font-size: 21px;
+    font-weight: bold;
+}
+.subtitle {
+    color:rgb(150, 146, 146);
+    font-size: 14px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.details {
+    text-align: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,41 @@
+.layout {
+    background-color: #f4f6f9;
+    height: 100vh;
+    width: 100vw;
+}
+.mainPanel {
+    display: flex;
+    flex-direction: row;
+}
+.leftPanel {
+    border: 2px;
+    border-color: azure;
+    background-color: white;
+    margin-top: 5rem;
+    width: 22%;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.rightPanel {
+    width: 75%;
+    margin-top: 5rem;
+    margin-right: 15px;
+
+}
+.graphTitle {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: white;
+    font-weight: lighter;
+}
+
+.graph {
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+.table {
+    margin-top: 15px;
+}

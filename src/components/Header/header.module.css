@@ -1,0 +1,19 @@
+.header {
+    position: fixed; /* Fixes the header to the top of the page */
+    top: 0; /* Ensures it stays at the very top */
+    left: 0; /* Aligns it to the left edge */
+    width: 100%; /* Stretches the header to the full width of the page */
+    background-color: #0d243f; /* Background color for visibility */
+    height: 2.5rem;
+    z-index: 1000; /* Ensures the header stays above other content */
+    align-items: center; /* Vertically centers content */
+    padding: 0 1rem; /* Adds padding on the sides */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+}
+.headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 100px;
+    padding: 7px;
+}
